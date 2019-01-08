@@ -1,0 +1,30 @@
+{
+  "Demo sample": {
+    "prefix": "demo",
+    "body": [
+      "const person = {",
+      "	name: 'Someone',",
+      "	fbFriends: {"
+      "    count: 42",
+      " }",
+      "};",
+      ""
+    ]
+  },
+  "isNil": {
+    "prefix": "isNil",
+    "body": [
+      "const isNil = value =>",
+      "  (value === undefined) || (value === null);"
+    ]
+  },
+  "rules": {
+    "prefix": "rules",
+    "body": [
+      "// Value(s) in a container",
+      "// Container has .map",
+      "// .map runs a function on a value in the container",
+      "// .map returns a new value in the same type of container"
+    ]
+  }
+}
